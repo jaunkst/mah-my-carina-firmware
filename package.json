@@ -1,0 +1,12 @@
+{
+  "name": "qmk-firmware",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:jaunkst/mah-my-carina-firmware.git",
+  "author": "Jason Aunkst <jason.aunkst@homeadvisor.com>",
+  "scripts": {
+    "build": "make",
+    "load": "cd / && ./mdloader_linux --first --download ./workspaces/qmk-firmware/massdrop_carina_default.bin --restart"
+  },
+  "license": "MIT"
+}

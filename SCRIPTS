@@ -1,1 +1,1 @@
-./bin/qmk compile --keyboard massdrop/carina --keymap default
+/mdloader_linux --first --download ./workspaces/qmk-firmware/massdrop_carina_default.bin --restart
